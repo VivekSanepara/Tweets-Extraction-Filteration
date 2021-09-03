@@ -7,10 +7,10 @@ import string
 import json
 
  
-con_key = "epRIoTq7wK0LjpAOXx4P3FIjP"
-con_secret = "wVfW2fRiZYeVyBfW0p63CCeUer00b39OZv8cUfDkx7D5BjhU6e"
-access_key= "1277230588550959104-4zvyhvmoErCRxKsPS3VmbENWUx0iPp"
-access_secret = "NbgKPPYZuoJBjqkr7lATT4V43P6VG6q4OxBL6HuAwWqeC"
+con_key = "eP3FIjP"
+con_secret = "wVfW2fCeUer00b39OZv8cUfDkx7D5BjhU6e"
+access_key= "1277230588550959104-4ENWUx0iPp"
+access_secret = "NbgKPPYZeC"
  
 auth = tw.OAuthHandler(con_key, con_secret)
 auth.set_access_token(access_key, access_secret)
