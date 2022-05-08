@@ -7,10 +7,10 @@ import string
 import json
 
  
-con_key = "eP3FIjP"
-con_secret = "wVfW2fCeUer00b39OZv8cUfDkx7D5BjhU6e"
-access_key= "1277230588550959104-4ENWUx0iPp"
-access_secret = "NbgKPPYZeC"
+con_key = "Your con_key here"
+con_secret = "Your con_Secret"
+access_key= "Access key here"
+access_secret = "Access Secret here"
  
 auth = tw.OAuthHandler(con_key, con_secret)
 auth.set_access_token(access_key, access_secret)
