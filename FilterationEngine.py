@@ -10,7 +10,7 @@ from pymongo import MongoClient
 
 client=MongoClient() 
 
-client = MongoClient("mongodb+srv://vivek:2100@clusterdata.qn61l.mongodb.net/myFirstDatabase?retryWrites=true&w=majority") 
+client = MongoClient("MongoDB URL") 
    
 mydatabase = client['myMongoTweet'] 
    
